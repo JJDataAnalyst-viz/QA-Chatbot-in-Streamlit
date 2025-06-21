@@ -31,5 +31,8 @@ if api_key:
 
     session_id=st.text_input("Session ID",value = "default_session")
 
-    if "store" not in session_id:
-        pass
+    if "store" not in st.session_state:
+        st.session_state.store = {}
+
+    upload_files = st.file_uploader("Choose PDF",type='pdf',accept_multiple_files=False)
+    
