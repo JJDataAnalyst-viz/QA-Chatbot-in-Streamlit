@@ -3,7 +3,7 @@
 An interactive Streamlit application that lets you **upload PDFs and chat with their content** using a modern **RAG (Retrieval-Augmented Generation)** architecture. Powered by **Groq’s blazing-fast LLMs**, **HuggingFace embeddings**, and **LangChain**, this tool brings intelligent, document-aware conversations to life.
 
 ---
-
+  
 ## 🚀 Features
 
 - 📄 **Upload PDFs** – Drop in any PDF and chat with its contents.
@@ -68,8 +68,7 @@ streamlit run app.py
 
 
 # 📸 Screenshots
----
----
+
 
 # 🗂 Example Project Structure
 ```bash
